@@ -3,7 +3,7 @@ const app = express()
 const cors = require('cors')
 const PORT = 8000
 
-app.use(cors())
+// app.use(cors()) // te deja usar request de localhost client a localhost server
 app.use(express.static('public'));
 
 const rappers = {
